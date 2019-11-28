@@ -3,8 +3,17 @@
 <% if notice %>
   <div class="alert alert-success"><%= notice %></div>
 <% end %>
-<li>
+
 <strong> <%= @cocktail.name %> </strong>
-</li>
-<%= link_to "New Dose", new_cocktail_dose_path(@cocktail) %>
+
+<% @cocktail.doses.each do |dose| %>
+<div>
+<%= dose.description %>
+<%= link_to 'delete', dose_path(dose), class: 'btn btn-primary', method: :delete %>
+<%=  %>
+</div>
+<% end %>
+
+
+<%= link_to "New Dose", new_cocktail_dose_path(@cocktail), class: 'btn btn-primary' %>
 

@@ -12,7 +12,7 @@ class CocktailsController < ApplicationController
     if @cocktail.save
       redirect_to @cocktail, notice: 'Your cocktail was successfully created'
     else
-      render :new, alert: 'Your cocktail sucked'
+      render :new, alert: 'Your cocktail sucks'
     end
   end
 
