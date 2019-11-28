@@ -5,3 +5,11 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+require "faker"
+
+puts 'Creating 30 ingredients'
+30.times do
+  ingredient = Ingredient.create(name: Faker::Food.ingredient)
+  ingredient.save!
+end
+puts "Finished!"

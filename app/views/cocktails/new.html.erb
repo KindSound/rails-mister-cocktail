@@ -1,0 +1,10 @@
+<div class="container py-5">
+  <h1>Creating a cocktail</h1>
+  <%= simple_form_for(@cocktail) do |f| %>
+    <%= f.error_notification %>
+    <%= f.error_notification message: f.object.errors[:base].to_sentence if f.object.errors[:base].present? %>
+
+    <%= f.input :name %>
+    <%= f.submit 'Save cocktail', class: 'btn btn-primary' %>
+  <% end %>
+</div>

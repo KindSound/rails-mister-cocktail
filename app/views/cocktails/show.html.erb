@@ -1,0 +1,10 @@
+<h1>Cocktails#show</h1>
+<p>Find me in app/views/cocktails/show.html.erb</p>
+<% if notice %>
+  <div class="alert alert-success"><%= notice %></div>
+<% end %>
+<li>
+<strong> <%= @cocktail.name %> </strong>
+</li>
+<%= link_to "New Dose", new_cocktail_dose_path(@cocktail) %>
+
