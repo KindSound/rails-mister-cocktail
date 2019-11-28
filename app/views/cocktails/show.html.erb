@@ -8,6 +8,7 @@
 
 <% @cocktail.doses.each do |dose| %>
 <div>
+<%= dose.ingredient.name %>
 <%= dose.description %>
 <%= link_to 'delete', dose_path(dose), class: 'btn btn-primary', method: :delete %>
 <%=  %>
