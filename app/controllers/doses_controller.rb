@@ -18,7 +18,7 @@ class DosesController < ApplicationController
   def destroy
     @dose = Dose.find(params[:id])
     if @dose.destroy
-      redirect_to cocktails_path, notice: 'Your dose was successfully deleted'
+      redirect_to cocktail_path(@dose.cocktail), notice: 'Your dose was successfully deleted'
     else
       redirect_to :back
     end
