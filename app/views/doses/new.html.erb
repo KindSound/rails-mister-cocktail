@@ -1,8 +1,26 @@
-<div class='container'>
-<h1>Add new dose to cocktail</h1>
-<%= simple_form_for [@cocktail,@dose], url: cocktail_doses_path  do |f| %>
-  <%= f.association :ingredient %>
-  <%= f.input :description %>
-  <%= f.button :submit %>
-<% end %>
+<div class="banner py-5" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://www.dorchestercollection.com/wp-content/uploads/Principe-Bar-Hero-1920x840.jpg);">
+  <div class='container text-white'>
+    <h1>Add new dose to cocktail</h1>
+    <%= simple_form_for [@cocktail,@dose], url: cocktail_doses_path  do |f| %>
+    <%= f.association :ingredient %>
+    <%= f.input :description %>
+    <div class="btn my-5 btn-light">
+    <%= f.button :submit %>
+    </div>
+    <% end %>
+  </div>
+</div>
+<div class="container">
+<%= link_to "Back", cocktails_path, class: 'btn btn-light d-flex my-5 justify-content-center' %>
+</div>
+<div class="footer">
+<div class="footer-links">
+  <a href="#"><i class="fab fa-instagram"></i></a>
+  <a href="#"><i class="fab fa-facebook"></i></a>
+  <a href="#"><i class="fab fa-twitter"></i></a>
+  <a href="#"><i class="fab fa-linkedin"></i></a>
+</div>
+<div class="footer-copyright">
+  Mixin' those 'tails!
+</div>
 </div>

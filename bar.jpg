@@ -1,0 +1,672 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="IE=edge" >
+
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="/wp-content/themes/dc2017/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <link href="/wp-content/themes/dc2017/css/ie11-fixes.css?v=1.0.4" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/lodash/4.17.4/lodash.min.js"></script>
+    <script src="https://cdn.polyfill.io/v2/polyfill.js?features=default-3.3|gated"></script>
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/v4-shims.css" crossorigin="anonymous">
+
+    <style>[v-cloak]{display:none;}</style>
+    <script> var ICL_LANGUAGE_CODE = 'en'; var lang_read_more = 'Read more';</script>
+
+    <script> // webfont loader
+        (function (d) {
+            var wf = d.createElement('script'), s = d.scripts[0];
+            wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js';
+            s.parentNode.insertBefore(wf, s);
+        })(document);
+
+        WebFontConfig = {
+            custom: {
+                families: [
+                    'industrial736',
+                    'NewsGoth BT',
+                    'NewsGoth Dm BT'
+                ]
+            },
+            timeout: 2000
+        };
+    </script>
+    <style>
+        @font-face {
+            font-family: "industrial736";
+            src: url("/wp-content/themes/dc2017/fonts/tt1047m_-webfont.eot");
+            src: url("/wp-content/themes/dc2017/fonts/tt1047m_-webfont.eot?#iefix") format("embedded-opentype"),
+            url("/wp-content/themes/dc2017/fonts/tt1047m_-webfont.woff") format("woff"),
+            url("/wp-content/themes/dc2017/fonts/tt1047m_-webfont.ttf") format("truetype"),
+            url("/wp-content/themes/dc2017/fonts/tt1047m_-webfont.svg#industrial736") format("svg");
+        }
+
+        @font-face {
+            font-family: "industrial736-italic";
+            src: url("/wp-content/themes/dc2017/fonts/tt1048m_-webfont.eot");
+            src: url("/wp-content/themes/dc2017/fonts/tt1048m_-webfont.eot?#iefix") format("embedded-opentype"),
+            url("/wp-content/themes/dc2017/fonts/tt1048m_-webfont.woff") format("woff"),
+            url("/wp-content/themes/dc2017/fonts/tt1048m_-webfont.ttf") format("truetype"),
+            url("/wp-content/themes/dc2017/fonts/tt1048m_-webfont.svg#industrial736italic") format("svg");
+        }
+
+        @font-face {
+            font-family: "NewsGoth BT";
+            src: url("/wp-content/themes/dc2017/fonts/NewsGothicBT-Roman.ttf") format("truetype");
+        }
+
+        @font-face {
+            font-family: "NewsGoth Dm BT";
+            src: url("/wp-content/themes/dc2017/fonts/NewsGothicBT-Demi.ttf") format("truetype");
+        }
+    </style>
+
+	<title>Page not found | Dorchester Collection</title>
+
+<!-- This site is optimized with the Yoast SEO Premium plugin v12.6.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="robots" content="noindex,follow"/>
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="object" />
+<meta property="og:title" content="Page not found | Dorchester Collection" />
+<meta property="og:url" content="/" />
+<meta property="og:site_name" content="Dorchester Collection" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Page not found | Dorchester Collection" />
+<meta name="twitter:site" content="@DC_LuxuryHotels" />
+<!-- / Yoast SEO Premium plugin. -->
+
+<link rel='dns-prefetch' href='//www.dorchestercollection.com' />
+<link rel='dns-prefetch' href='//cdnjs.cloudflare.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//fonts.gstatic.com' />
+<link rel='dns-prefetch' href='//ajax.googleapis.com' />
+<link rel='dns-prefetch' href='//apis.google.com' />
+<link rel='dns-prefetch' href='//google-analytics.com' />
+<link rel='dns-prefetch' href='//www.google-analytics.com' />
+<link rel='dns-prefetch' href='//ssl.google-analytics.com' />
+<link rel='dns-prefetch' href='//youtube.com' />
+<link rel='dns-prefetch' href='//s.gravatar.com' />
+<link rel="alternate" type="application/rss+xml" title="Dorchester Collection &raquo; Feed" href="https://www.dorchestercollection.com/en/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Dorchester Collection &raquo; Comments Feed" href="https://www.dorchestercollection.com/en/comments/feed/" />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://www.dorchestercollection.com/wp-includes/css/dist/block-library/style.min.css?ver=5.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='cookie-notice-front-css'  href='https://www.dorchestercollection.com/wp-content/plugins/cookie-notice/css/front.min.css?ver=5.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='cr_peoplebank_extend_style-css'  href='https://www.dorchestercollection.com/wp-content/plugins/vc-chrisrenga-peoplebank/assets/cr_peoplebank.css?ver=5.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='tg_extend_style-css'  href='https://www.dorchestercollection.com/wp-content/plugins/vc-timgreenwood-bookatable/assets/tg_bookatable.css?ver=5.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wpml-ls-dorchester-collection-2017-dc-language-switcher-0-css'  href='//www.dorchestercollection.com/wp-content/themes/dc2017/wpml/templates/language-switchers/dc2017/style.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='dc_modules-css'  href='https://www.dorchestercollection.com/wp-content/plugins/dc-modules/DcModules/css/dc-modules.css?ver=7.4' type='text/css' media='all' />
+<link rel='stylesheet' id='dropdown_css-css'  href='https://www.dorchestercollection.com/wp-content/themes/dc2017/css/vendor_styling/dropdown-common.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='pikaday_css-css'  href='https://www.dorchestercollection.com/wp-content/themes/dc2017/css/vendor_styling/pikaday.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='pikaday_theme_css-css'  href='https://www.dorchestercollection.com/wp-content/themes/dc2017/css/vendor_styling/pikaday-theme.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='dc2017_css_app-css'  href='https://www.dorchestercollection.com/wp-content/themes/dc2017/css/app.css?ver=10.9' type='text/css' media='all' />
+<link rel='stylesheet' id='slickjs-css-css'  href='https://www.dorchestercollection.com/wp-content/themes/dc2017/slick/slick.css?ver=1.8' type='text/css' media='screen' />
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='vc_lte_ie9-css'  href='https://www.dorchestercollection.com/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css?ver=6.0.5' type='text/css' media='screen' />
+<![endif]-->
+<script type='text/javascript' src='https://www.dorchestercollection.com/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript' src='https://www.dorchestercollection.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://www.dorchestercollection.com/wp-content/plugins/vc-chrisrenga-peoplebank/assets/js/min/cr_peoplebank-min.js?ver=5.2.2'></script>
+<script type='text/javascript' src='https://www.dorchestercollection.com/wp-content/plugins/vc-chrisrenga-peoplebank/assets/js/hex.js?ver=5.2.2'></script>
+<script type='text/javascript' src='https://www.dorchestercollection.com/wp-content/plugins/vc-timgreenwood-bookatable/assets/tg_bookatable.js'></script>
+<script type='text/javascript' src='//www.dorchestercollection.com/wp-content/themes/dc2017/wpml/templates/language-switchers/dc2017/script.js?ver=1.0'></script>
+<link rel='https://api.w.org/' href='https://www.dorchestercollection.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.dorchestercollection.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.dorchestercollection.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.2.2" />
+<meta name="generator" content="WPML ver:4.2.6 stt:1,4,27;" />
+<!-- <meta name="NextGEN" version="3.2.10" /> -->
+
+<!-- This site is optimized with the Schema Premium ver.1.0.6 - https://schema.press -->
+
+<!-- Schema Premium Plugin -->
+
+<meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
+<script type="text/javascript">var algolia = {"debug":false,"application_id":"25DS5VUZFW","search_api_key":"f5f30ed91022a8ac06882aa2117f73b1","powered_by_enabled":false,"query":"","autocomplete":{"sources":[],"input_selector":"input[name='s']:not('.no-autocomplete')"},"indices":[]};</script>		<style type="text/css">
+					.site-title,
+			.site-description {
+				position: absolute;
+				clip: rect(1px, 1px, 1px, 1px);
+			}
+				</style>
+		<noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-W7S3Z6');</script>
+	<!-- End Google Tag Manager -->
+
+    <!-- Start Sabre in-context BE widgets -->
+        <!-- End Sabre in-context BE widgets -->
+
+</head>
+
+<body class="error404 cookies-not-set hfeed wpb-js-composer js-comp-ver-6.0.5 vc_responsive"><!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W7S3Z6"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<div class="dev-overlay">
+	<div class="outer-left"></div>
+	<div class="outer-right"></div>
+	<div class="half-left"></div>
+	<div class="half-right"></div>
+	<div class="one-third"></div>
+	<div class="two-thirds"></div>
+</div>
+
+<!-- End Google Tag Manager (noscript) -->
+<div id="page" class="site has-dc-navbar">
+
+    <nav class="navbar navbar-fixed-top yamm  is-dc" id="mainNavBar">
+                <div class="dc-navbar">
+            <div class="container-fluid">
+                <div class="float-right">
+                    
+                                        <a href="https://newsletter.dorchestercollection.com/webApp/dc_sub_unsub">
+                        <span class="far fa-envelope"></span>
+                        <span class="sr-only">Newsletter signup</span>
+                    </a>
+                    
+                    
+                    <div class="wpml-ls-statics-shortcode_actions wpml-ls dc-language-switcher">
+                                        <a href="#" role="button" aria-haspopup="true" aria-expanded="false" class="language-toggle">
+                                            <img src="https://www.dorchestercollection.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png" alt="en" title="English"> <span class="hide-sm">EN</span>
+                                        <span class="caret"></span>
+                </a>
+                                                
+            <div class="languages-dropdown">
+            <ul class="list-unstyled">
+                                                                                                <li class="wpml-ls-slot-shortcode_actions wpml-ls-item wpml-ls-item-fr dc-language-switcher-item">
+                            <a href="https://www.dorchestercollection.com/fr/" class="wpml-ls-link">
+                                <img src="https://www.dorchestercollection.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/fr.png" alt="fr" title="Français"><span>Français (FR)</span>
+                            </a>
+                        </li>
+                                                                                <li class="wpml-ls-slot-shortcode_actions wpml-ls-item wpml-ls-item-it wpml-ls-last-item dc-language-switcher-item">
+                            <a href="https://www.dorchestercollection.com/it/" class="wpml-ls-link">
+                                <img src="https://www.dorchestercollection.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/it.png" alt="it" title="Italiano"><span>Italiano (IT)</span>
+                            </a>
+                        </li>
+                                                </ul>
+        </div>
+    
+</div>                </div>
+                                                <span class="text-italic hide-sm hide-mobile">Perfection just happens</span>
+                <a href="https://www.dorchestercollection.com/en/perfection-just-happens/dining/?utm_source=DChome&utm_medium=website&utm_campaign=toplink" class="cta-underlined hide-sm hide-mobile">
+                    <span>Discover our story</span>
+                </a>
+                <a href="https://www.dorchestercollection.com/en/perfection-just-happens/dining/?utm_source=DChome&utm_medium=website&utm_campaign=toplink" class="hide-md hide-lg">
+                    <span class="text-italic">Discover our story</span>
+                </a>
+                            </div>
+
+        </div>
+                <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                        aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                                <a class="navbar-brand " href="https://www.dorchestercollection.com/en/">
+                    <img alt="Dorchester Collection" src="/wp-content/themes/dc2017/images/dorchestercollection-icon.png" class="icon"/>
+                </a>
+                
+                                    <div class="hotels-dropdown navbar-brand">
+                        <a class="" href="https://www.dorchestercollection.com/en/">
+                            Dorchester Collection
+                        </a>
+                        <a href="#" class="hotels-dropdown-toggle" data-toggle='hotels-dropdown-menu' role='button' aria-haspopup='true' aria-expanded='false'>
+                            <span class='caret'></span>
+                        </a>
+                        <ul class="hotels-dropdown-menu">
+                                                            <li>
+                                    <a href="https://www.dorchestercollection.com/en/london/the-dorchester/">The Dorchester, <small>London</small></a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.dorchestercollection.com/en/london/45-park-lane/">45 Park Lane, <small>London</small></a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.dorchestercollection.com/en/ascot/coworth-park/">Coworth Park, <small>Ascot</small></a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.dorchestercollection.com/en/paris/le-meurice/">Le Meurice, <small>Paris</small></a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.dorchestercollection.com/en/paris/hotel-plaza-athenee/">Hôtel Plaza Athénée, <small>Paris</small></a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.dorchestercollection.com/en/rome/hotel-eden/">Hotel Eden, <small>Rome</small></a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.dorchestercollection.com/en/milan/hotel-principe-di-savoia/">Hotel Principe di Savoia, <small>Milan</small></a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.dorchestercollection.com/en/los-angeles/the-beverly-hills-hotel/">The Beverly Hills Hotel, <small>Los Angeles</small></a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.dorchestercollection.com/en/los-angeles/hotel-bel-air/">Hotel Bel-Air, <small>Los Angeles</small></a>
+                                </li>
+                                                    </ul>
+                    </div>
+                            </div>
+            <div id="navbar" class="collapse navbar-collapse"><ul class="nav navbar-nav navbar-right" id="mainNav"><li class=''><a href="https://www.dorchestercollection.com/en/festive-season/">Festive season</a></li>
+<li class='yamm-fw dropdown'><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Hotels <i class="caret"></i></a>
+<ul class="dropdown-menu">
+	<li>
+		<div class="yamm-content container-fluid">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 hide-sm">
+					<p class="menu-dropdown-title">Hotels</p>
+				</div>
+				<div class="col-xs-12 col-sm-3">
+					<p class="menu-title">United Kingdom</p>
+					<ul class="list-unstyled">
+						<li>
+							<a href="https://www.dorchestercollection.com/en/london/the-dorchester/">The Dorchester<small>London</small></a>
+						</li>
+						<li>
+							<a href="https://www.dorchestercollection.com/en/london/45-park-lane/">45 Park Lane<small>London</small></a>
+						</li>
+						<li>
+							<a href="https://www.dorchestercollection.com/en/ascot/coworth-park/">Coworth Park<small>Ascot</small></a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-xs-12 col-sm-3">
+					<p class="menu-title">France</p>
+					<ul class="list-unstyled">
+						<li>
+							<a href="https://www.dorchestercollection.com/en/paris/le-meurice/">Le Meurice<small>Paris</small></a>
+						</li>
+						<li>
+							<a href="https://www.dorchestercollection.com/en/paris/hotel-plaza-athenee/">Hôtel Plaza Athénée<small>Paris</small></a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-xs-12 col-sm-3">
+					<p class="menu-title">Italy</p>
+					<ul class="list-unstyled">
+						<li>
+							<a href="https://www.dorchestercollection.com/en/rome/hotel-eden/">Hotel Eden<small>Rome</small></a>
+						</li>
+						<li>
+						<a href="https://www.dorchestercollection.com/en/milan/hotel-principe-di-savoia/">Hotel Principe di Savoia<small>Milan</small></a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-xs-12 col-sm-3">
+					<p class="menu-title">USA</p>
+					<ul class="list-unstyled">
+						<li>
+							<a href="https://www.dorchestercollection.com/en/los-angeles/the-beverly-hills-hotel/">The Beverly Hills Hotel<small>Los Angeles</small></a>
+						</li>
+						<li>
+							<a href="https://www.dorchestercollection.com/en/los-angeles/hotel-bel-air/">Hotel Bel-Air<small>Los Angeles</small></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</li>
+</ul>
+</li>
+<li class='yamm-fw dropdown'><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <i class="caret"></i></a>
+<ul depth="0" class="dropdown-menu">
+<li><div class='yamm-content container-fluid'><p class='menu-title'>About Dorchester Collection</p><ul class='list-unstyled'> 
+<li class=''><a href="https://www.dorchestercollection.com/en/who-we-are/">Who we are</a></li>
+<li class=''><a href="https://www.dorchestercollection.com/en/about/corporate-responsibility/">Corporate responsibility</a></li>
+<li class=''><a href="https://www.dorchestercollection.com/en/careers/">Careers</a></li>
+</ul>
+</div></li></ul> 
+</li>
+<li class=''><a href="https://www.dorchestercollection.com/en/your-guide-to-dorchester-collection/">Your guide to...</a></li>
+<li class=''><a href="/en/offers/">Offers</a></li>
+<li class=''><a href="https://www.dorchestercollection.com/en/restaurants-bars/">Restaurants & bars</a></li>
+<li class=''><a href="https://www.dorchestercollection.com/en/luxury-wedding-hotels/">Weddings</a></li>
+<li class=''><a href="https://www.dorchestercollection.com/en/meetings-events/">Meeting & events</a></li>
+<li class=''><a href="/en/moments/">Moments</a></li>
+<li class=''><a href="https://shop.dorchestercollection.com">Shop</a></li>
+<li class=''><a href="https://www.dorchestercollection.com/en/contact/">Get in touch</a></li>
+<li class="reserve-your-stay"><a href="https://gc.synxis.com/rez.aspx?chain=5310&adult=2" class="navbar-primary">Reserve your stay</a></li></ul></div>        </div>
+            </nav>
+
+	<div id="content" class="site-content">
+
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main">
+
+			<article>
+
+				<div class="entry-content">
+
+					<div class="vc_row wpb_row vc_row-fluid">
+						<div class="wpb_column vc_column_container" style="width: 100%;">
+							<div class="vc_column-inner">
+								<div class="wpb_wrapper">
+									<h1>Page not found</h1>
+									<p>Sorry - The page you are looking for does not exist.</p>
+									<p>You may wish to update your Favourites/Bookmarks with the new page link. We apologise for any inconvenience.</p>
+									<p>Please use the links below to explore our hotels.</p>
+
+									<section class="homepage__section make-row-fullwidth">
+    <div class="centered flex grid hotel__icons">
+        <div class="hotel__icons-hotel grid-sm-half grid-md-fifth">
+            <a href="https://www.dorchestercollection.com/london/the-dorchester/">
+                                    <div class="hotel__image">
+                        <img src="https://www.dorchestercollection.com/wp-content/uploads/the-dorchester-exterior-square-560x560.jpg" class="" alt="the dorchester">
+                    </div>
+                                <img src="/wp-content/uploads/logos/tdl.png" alt="The Dorchester"/>
+                <span>
+                The Dorchester
+                <span class="city">London, UK</span>
+            </span>
+            </a>
+        </div>
+        <div class="hotel__icons-hotel grid-sm-half grid-md-fifth">
+            <a href="https://www.dorchestercollection.com/london/45-park-lane/">
+                                    <div class="hotel__image">
+                        <img src="https://www.dorchestercollection.com/wp-content/uploads/london-45-park-lane-exterior-dusk-1200x1200-square-560x560.jpg" class="" alt="45 park lane">
+                    </div>
+                                <img src="/wp-content/uploads/logos/45l.png" alt="45 Park Lane"/>
+                <span>
+                45 Park Lane
+                <span class="city">London, UK</span>
+            </span>
+            </a>
+        </div>
+        <div class="hotel__icons-hotel grid-sm-half grid-md-fifth">
+            <a href="https://www.dorchestercollection.com/ascot/coworth-park/">
+                                    <div class="hotel__image">
+                        <img src="https://www.dorchestercollection.com/wp-content/uploads/coworth-park-square-560x560.jpg" class="" alt="coworth park">
+                    </div>
+                                <img src="/wp-content/uploads/logos/cpa.png" alt="Coworth Park"/>
+                <span>
+                Coworth Park
+                <span class="city">Ascot, UK</span>
+            </span>
+            </a>
+        </div>
+        <div class="hotel__icons-hotel grid-sm-half grid-md-fifth">
+            <a href="https://www.dorchestercollection.com/los-angeles/the-beverly-hills-hotel/">
+                                    <div class="hotel__image">
+                        <img src="https://www.dorchestercollection.com/wp-content/uploads/beverly-hills-front-sign-square-560x560.jpg" class="" alt="the beverly hills hotel">
+                    </div>
+                                <img src="/wp-content/uploads/logos/bhh.png" alt="The Beverly Hills Hotel"/>
+                <span>
+                The Beverly Hills Hotel
+                <span class="city">Beverly Hills, USA</span>
+            </span>
+            </a>
+        </div>
+        <div class="hotel__icons-hotel grid-sm-half grid-md-fifth">
+            <a href="https://www.dorchestercollection.com/los-angeles/hotel-bel-air/">
+                                    <div class="hotel__image">
+                        <img src="https://www.dorchestercollection.com/wp-content/uploads/Bel-Air-front-sign-exterior-square-560x560.jpg" class="" alt="hotel bel air">
+                    </div>
+                                <img src="/wp-content/uploads/logos/hba.png" alt="Hotel Bel-Air"/>
+                <span>
+                Hotel Bel-Air
+                <span class="city">Los Angeles, USA</span>
+            </span>
+            </a>
+        </div>
+        <div class="hotel__icons-hotel grid-sm-half grid-md-fifth">
+            <a href="https://www.dorchestercollection.com/paris/le-meurice/">
+                                    <div class="hotel__image">
+                        <img src="https://www.dorchestercollection.com/wp-content/uploads/le-meurice-square-560x560.jpg" class="" alt="le meurice">
+                    </div>
+                                <img src="/wp-content/uploads/logos/lmp.png" alt="Le Meurice"/>
+                <span>
+                Le Meurice
+                <span class="city">Paris, France</span>
+            </span>
+            </a>
+        </div>
+        <div class="hotel__icons-hotel grid-sm-half grid-md-fifth">
+            <a href="https://www.dorchestercollection.com/paris/hotel-plaza-athenee/">
+                                    <div class="hotel__image">
+                        <img src="https://www.dorchestercollection.com/wp-content/uploads/paris-plaza-athenee-facade1_Square-560x560.jpg" class="" alt="hotel plaza athenee">
+                    </div>
+                                <img src="/wp-content/uploads/logos/hpa.png" alt="Hôtel Plaza Athénée"/>
+                <span>
+                Hôtel Plaza Athénée
+                <span class="city">Paris, France</span>
+            </span>
+            </a>
+        </div>
+        <div class="hotel__icons-hotel grid-sm-half grid-md-fifth">
+            <a href="https://www.dorchestercollection.com/rome/hotel-eden/">
+                                    <div class="hotel__image">
+                        <img src="https://www.dorchestercollection.com/wp-content/uploads/rome-hotel-eden-exterior_square-560x560.jpg" class="" alt="hotel eden">
+                    </div>
+                                <img src="/wp-content/uploads/logos/her.png" alt="Hotel Eden"/>
+                <span>
+                Hotel Eden
+                <span class="city">Rome, Italy</span>
+            </span>
+            </a>
+        </div>
+        <div class="hotel__icons-hotel grid-sm-half grid-md-fifth">
+            <a href="https://www.dorchestercollection.com/milan/hotel-principe-di-savoia/">
+                                    <div class="hotel__image">
+                        <img src="https://www.dorchestercollection.com/wp-content/uploads/HPS-interior-square-560x560.jpg" class="" alt="hotel principe di savoia">
+                    </div>
+                                <img src="/wp-content/uploads/logos/hps.png" alt="Hotel Principe di Savoia"/>
+                <span>
+                Hotel Principe di Savoia
+                <span class="city">Milan, Italy</span>
+            </span>
+            </a>
+        </div>
+    </div>
+</section>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</article>
+
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+
+	</div><!-- #content -->
+
+
+    
+    <div class="show-sm hide-md hide-lg footer-fixed-buttons ">
+                    <a href="#contact" class="contact-button btn btn-bordered btn-tiny btn-half">Contact</a>
+                        </div>
+
+
+    <footer class="footer">
+    <section class="section">
+        <div class="grid flex">
+            <div class="grid-sm-6">
+                <a href="https://www.dorchestercollection.com/en/">
+                    <img src="/wp-content/themes/dc2017/images/logo_collection.png" alt="Dorchester Collection" title="Dorchester Collection" class="footer-logo"/>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="grid flex">
+            <div class="grid-sm-6 grid-md-4 grid-lg-3">
+                <p class="footer-section-title">Our Hotels</p>
+                <ul class="list-unstyled">
+                    <li><a href="https://www.dorchestercollection.com/en/london/the-dorchester/">The Dorchester, London</a></li>
+                    <li><a href="https://www.dorchestercollection.com/en/london/45-park-lane/">45 Park Lane, London</a></li>
+                    <li><a href="https://www.dorchestercollection.com/en/ascot/coworth-park/">Coworth Park, Ascot</a></li>
+                    <li><a href="https://www.dorchestercollection.com/en/paris/le-meurice/">Le Meurice, Paris</a></li>
+                    <li><a href="https://www.dorchestercollection.com/en/paris/hotel-plaza-athenee/">Hôtel Plaza Athénée, Paris</a></li>
+                    <li><a href="https://www.dorchestercollection.com/en/rome/hotel-eden/">Hotel Eden, Rome</a></li>
+                    <li><a href="https://www.dorchestercollection.com/en/milan/hotel-principe-di-savoia/">Hotel Principe di Savoia, Milan</a></li>
+                    <li><a href="https://www.dorchestercollection.com/en/los-angeles/the-beverly-hills-hotel/">The Beverly Hills Hotel, Beverly Hills</a></li>
+                    <li><a href="https://www.dorchestercollection.com/en/los-angeles/hotel-bel-air/">Hotel Bel-Air, Los Angeles</a></li>
+                </ul>
+            </div>
+            <!--div class="grid-sm-6 grid-md-6 grid-lg-4">
+                <p class="footer-section-title">Our Destinations</p>
+                <div class="grid flex">
+                    <div class="grid-sm-6 grid-md-6 grid-lg-6">
+                        <ul class="list-unstyled">
+                            <li>
+                                <span class="footer-list-title">United Kingdom</span>
+                                <ul class="list-unstyled">
+                                    <li>London</li>
+                                    <li>Ascot</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <span class="footer-list-title">France</span>
+                                <ul class="list-unstyled">
+                                    <li>Paris</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <span class="footer-list-title">Switzerland</span>
+                                <ul class="list-unstyled">
+                                    <li>Geneva</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid-sm-6 grid-md-6 grid-lg-6">
+                        <ul class="list-unstyled">
+                            <li>
+                                <span class="footer-list-title">Italy</span>
+                                <ul class="list-unstyled">
+                                    <li>Rome</li>
+                                    <li>Milan</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <span class="footer-list-title">USA</span>
+                                <ul class="list-unstyled">
+                                    <li>Los Angeles</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div-->
+            <div class="grid-sm-6 grid-md-4 grid-lg-2">
+                <p class="footer-section-title">&nbsp;</p>
+                <ul class="list-unstyled">
+                    <li><a href="https://gc.synxis.com/rez.aspx?chain=5310&adult=2">Make a reservation</a></li>
+                    <li><a href="https://shop.dorchestercollection.com/">Gifts & Experiences</a></li>
+                    <li><a href="https://www.dorchestercollection.com/en/collect-magazine/">Collect magazine</a></li>
+                    <li><a href="https://www.dorchestercollection.com/en/moments/">Moments</a></li>
+                    <li><a href="https://www.dorchestercollection.com/en/contact/">Contact us</a></li>
+                    <li><a href="https://newsletter.dorchestercollection.com/webApp/dc_sub_unsub">Newsletter signup</a></li>
+                    <li><a href="https://shop.dorchestercollection.com/balance-check">Check your gift card balance</a></li>
+                </ul>
+                <ul class="list-unstyled">
+                    										                    																				                </ul>
+            </div>
+            <div class="grid-sm-6 grid-md-4 grid-lg-2">
+                <p class="footer-section-title">&nbsp;</p>
+                <ul class="list-unstyled">
+                    <li><a href="https://www.dorchestercollection.com/en/who-we-are/">Who we are</a></li>
+                    <li><a href="https://www.dorchestercollection.com/en/academy/">Academy</a></li>
+                    <li><a href="https://www.dorchestercollection.com/en/careers/">Careers and opportunities</a></li>
+                    <li><a href="https://www.dorchestercollection.com/en/media-centre/">Media centre</a></li>
+                    <li><a href="https://www.dcdiamondclub.com">Travel Agents Diamond Club</a></li>
+                    <li><a href="https://www.dorchestercollection.com/en/development/">Development</a></li>
+<!--                    <li><a href="--><!--">Online brochure</a></li>-->
+                    <li><a href="https://www.dorchestercollection.com/en/contact/worldwide-sales/">Worldwide sales</a></li>
+                    <li><a href="https://www.dorchestercollection.com/en/about-us/corporate-responsibility/">Corporate responsibility</a></li>
+                    <li><a href="https://www.dorchestercollection.com/en/privacy-policy/">Privacy policy</a></li>
+                    <li><a href="https://www.dorchestercollection.com/en/privacy-terms-of-use/">Terms of use</a></li>
+                </ul>
+            </div>
+                        <div class="grid-sm-6 grid-md-12 grid-lg-4 grid-xl-3 text-center campaign-banner">
+                <p class="footer-section-title">&nbsp;</p>
+                <a href="https://www.dorchestercollection.com/en/perfection-just-happens/dining/?utm_source=DChome&utm_medium=website&utm_campaign=footerlink">
+                    <img src="https://www.dorchestercollection.com/wp-content/uploads/PJH-dine-hero-image_footer.jpg" class="img-responsive" alt="Perfection Just Happens - Discover our story" title="Perfection Just Happens - Discover our story" />
+                </a>
+            </div>
+                    </div>
+    </section>
+    <section class="section social">
+        <div class="grid flex">
+            <div class="grid-sm-6 grid-md-3 grid-lg-2">
+                #DCmoments
+            </div>
+            <div class="grid-sm-6 grid-md-9 grid-lg-10">
+                <a href='https://www.facebook.com/DC.Luxuryhotels'><span class='fa fa-facebook-square'></span><span class='sr-only'>fa-facebook-square</span></a><a href='https://www.twitter.com/DC_LuxuryHotels'><span class='fa fa-twitter-square'></span><span class='sr-only'>fa-twitter-square</span></a><a href='https://www.youtube.com/user/DorchesterCollection'><span class='fa fa-youtube-square'></span><span class='sr-only'>fa-youtube-square</span></a><a href='https://www.pinterest.com/DCluxuryhotels'><span class='fa fa-pinterest-square'></span><span class='sr-only'>fa-pinterest-square</span></a><a href='https://instagram.com/dorchestercollection'><span class='fa fa-instagram'></span><span class='sr-only'>fa-instagram</span></a>            </div>
+        </div>
+    </section>
+    <section class="section copyright">
+        <div class="grid flex">
+            <div class="grid-sm-6 grid-md-2 grid-lg-2">
+                <div id="footer_language_list"><ul><li class="active"><span class="icl_lang_sel_current icl_lang_sel_native">English</span> <span class="fa fa-chevron-down"></span></li><li class="hidden"><a href="https://www.dorchestercollection.com/fr/"><span class="icl_lang_sel_native">Français</span> <span class="icl_lang_sel_translated"><span class="icl_lang_sel_bracket">(</span>French<span class="icl_lang_sel_bracket">)</span></span></a></li><li class="hidden"><a href="https://www.dorchestercollection.com/it/"><span class="icl_lang_sel_native">Italiano</span> <span class="icl_lang_sel_translated"><span class="icl_lang_sel_bracket">(</span>Italian<span class="icl_lang_sel_bracket">)</span></span></a></li></ul></div><!--                English <span class="fa fa-chevron-down"></i>-->
+            </div>
+            <div class="grid-sm-6 grid-md-7 grid-lg-8">
+                
+                
+                            </div>
+            <div class="grid-sm-6 grid-md-3 grid-lg-2 text-right">
+                <p class="list-smaller">&copy; 2019 Dorchester Services.<br/>All Rights Reserved.</p>
+            </div>
+        </div>
+    </section>
+</footer>
+</div><!-- #page -->
+
+    <a href="#page" id="return-to-top" aria-hidden="true" title="Return to top" class="scroll-top"><span class="fas fa-arrow-up"></span><span class="sr-only">Return to top</span></a>
+
+<!-- ngg_resource_manager_marker --><script type='text/javascript'>
+/* <![CDATA[ */
+var cnArgs = {"ajaxurl":"https:\/\/www.dorchestercollection.com\/wp-admin\/admin-ajax.php","hideEffect":"fade","onScroll":"no","onScrollOffset":"100","cookieName":"cookie_notice_accepted","cookieValue":"true","cookieTime":"2592000","cookiePath":"\/","cookieDomain":"","redirection":"","cache":"1","refuse":"no","revoke_cookies":"0","revoke_cookies_opt":"automatic","secure":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.dorchestercollection.com/wp-content/plugins/cookie-notice/js/front.min.js?ver=1.2.48'></script>
+<script type='text/javascript' src='https://www.dorchestercollection.com/wp-content/plugins/dc-modules/DcModules/js/iframeResizer.min.js?ver=1.0'></script>
+<script type='text/javascript' src='https://www.dorchestercollection.com/wp-content/plugins/dc-modules/DcModules/js/commitment.js?ver=1.0'></script>
+<script type='text/javascript' src='https://www.dorchestercollection.com/wp-content/plugins/dc-modules/DcModules/js/anime.min.js?ver=3.0.1'></script>
+<script type='text/javascript' src='https://www.dorchestercollection.com/wp-content/plugins/dc-modules/DcModules/js/lmp-header.js?ver=7.4'></script>
+<script type='text/javascript' src='https://www.dorchestercollection.com/wp-content/plugins/dc-modules/DcModules/js/offers.js?ver=1.3'></script>
+<script type='text/javascript' src='https://www.dorchestercollection.com/wp-content/themes/dc2017/bower_components/bootstrap/dist/js/bootstrap.min.js?ver=3.3.7'></script>
+<script type='text/javascript' src='https://www.dorchestercollection.com/wp-content/themes/dc2017/js/jquery.browser.min.js?ver=1.0'></script>
+<script type='text/javascript' src='https://www.dorchestercollection.com/wp-content/themes/dc2017/js/jquery.scrollTo-dist.js?ver=2.1.2'></script>
+<script type='text/javascript' src='https://www.dorchestercollection.com/wp-content/themes/dc2017/js/equalize.min.js?ver=1.0'></script>
+<script type='text/javascript' src='https://www.dorchestercollection.com/wp-content/themes/dc2017/js/scrollspy-dist.js?ver=0.1.3'></script>
+<script type='text/javascript' src='https://www.dorchestercollection.com/wp-content/themes/dc2017/js/jquery.validate.min.js?ver=1.0'></script>
+<script type='text/javascript' src='https://www.dorchestercollection.com/wp-content/themes/dc2017/js/jquery.dropdown-dist.js?ver=1.0'></script>
+<script type='text/javascript' src='https://www.dorchestercollection.com/wp-content/themes/dc2017/js/jquery.slidein-dist.js?ver=1.0'></script>
+<script type='text/javascript' src='https://www.dorchestercollection.com/wp-includes/js/dist/vendor/moment.min.js?ver=2.22.2'></script>
+<script type='text/javascript'>
+moment.locale( 'en_US', {"months":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthsShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"weekdays":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"weekdaysShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"week":{"dow":1},"longDateFormat":{"LT":"g:i a","LTS":null,"L":null,"LL":"F d, Y","LLL":"F j, Y g:i a","LLLL":null}} );
+</script>
+<script type='text/javascript' src='https://www.dorchestercollection.com/wp-content/themes/dc2017/js/pikaday-dist.js?ver=1.0'></script>
+<script type='text/javascript' src='https://www.dorchestercollection.com/wp-includes/js/imagesloaded.min.js?ver=3.2.0'></script>
+<script type='text/javascript' src='https://www.dorchestercollection.com/wp-content/themes/dc2017/slick/slick.min.js?ver=1.8'></script>
+<script type='text/javascript' src='https://www.dorchestercollection.com/wp-content/themes/dc2017/js/app-dist.js?ver=10.9'></script>
+<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.13/vue.min.js?ver=5.2.2'></script>
+
+			<div id="cookie-notice" role="banner" class="cn-bottom bootstrap" style="color: #fff; background-color: #000;" aria-label="Cookie Notice"><div class="cookie-notice-container"><span id="cn-notice-text">We use cookies to ensure that we give you the best experience on our website. By closing this message, you consent to our cookies on this device in accordance with our cookie policy unless you have disabled them.</span><a href="#" id="cn-accept-cookie" data-cookie-set="accept" class="cn-set-cookie cn-button bootstrap button">Ok</a>
+				</div>
+				
+			</div></body>
+</html>

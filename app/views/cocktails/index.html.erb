@@ -1,22 +1,35 @@
-<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://www.dorchestercollection.com/wp-content/uploads/Principe-Bar-Hero-1920x840.jpg);">
+<div class="banner " style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://www.dorchestercollection.com/wp-content/uploads/Principe-Bar-Hero-1920x840.jpg);">
   <div class="container">
     <h1>Make your own cocktail!</h1>
     <p>Pick your poison.</p>
-    <%= link_to 'New cocktail', new_cocktail_path, class: 'btn btn-primary' %>
-</div>
+    <%= link_to 'New cocktail', new_cocktail_path, class: 'btn btn-ghost' %>
+  </div>
 </div>
 <!-- <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://s2.best-wallpaper.net/wallpaper/1920x1200/1801/Bar-bottles-alcohol-drinks_1920x1200.jpg)">
   <p>Browse drinks</p>
 </div> -->
-<div class="cards padding xy20">
-<% @cocktails.each do |cocktail| %>
-<div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/breakfast.jpg)">
-  <div>
-    <h3>
-<%= link_to cocktail.name, cocktail_path(cocktail) %>
-</h3>
+<div class="container">
+<div class="cards py-3">
+  <% @cocktails.each do |cocktail| %>
+  <div class="card-category py-5" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= cl_image_path cocktail.photo %>)">
+    <div>
+      <h3>
+      <%= link_to cocktail.name, cocktail_path(cocktail), class: "text-white" %>
+      </h3>
+    </div>
+  </div>
+  <% end %>
+  <br>
 </div>
 </div>
-<% end %>
-<br>
+<div class="footer">
+  <div class="footer-links">
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-facebook"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a>
+    <a href="#"><i class="fab fa-linkedin"></i></a>
+  </div>
+  <div class="footer-copyright">
+    Mixin' those 'tails!
+  </div>
 </div>

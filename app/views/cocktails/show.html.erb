@@ -1,20 +1,41 @@
-<h1>Cocktails#show</h1>
-<p>Find me in app/views/cocktails/show.html.erb</p>
-<% if notice %>
-  <div class="alert alert-success"><%= notice %></div>
-<% end %>
-
-<strong> <%= @cocktail.name %> </strong>
-
-<% @cocktail.doses.each do |dose| %>
-<div>
-<%= dose.ingredient.name %>
-<%= dose.description %>
-<%= link_to 'delete', dose_path(dose), class: 'btn btn-primary', method: :delete %>
-<%=  %>
+<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(<%= cl_image_path @cocktail.photo %>);">
+  <div class="container">
+    <h1><strong> <%= @cocktail.name %> </strong></h1>
+    <p>What goes in it?</p>
+  </div>
 </div>
+<% if notice %>
+<div class="alert alert-success"><%= notice %></div>
 <% end %>
+<div class="container">
+  <% @cocktail.doses.each do |dose| %>
+  <div class="card-product">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwl_HhUXSxRLTbyWd2it6K6kkYAHvxCKumHavKNXqZBTcyEE3t&s" />
+    <div class="card-product-infos mxy-2">
+      <div>
+        <h2> <%= dose.ingredient.name %> </h2>
+        <p> <%= dose.description %> </p>
+      </div>
+    </div>
+          <%= link_to dose_path(dose), class: 'btn btn-danger float-right', method: :delete do %>
+           <i class="fas fa-trash"></i>
+          <% end %>
 
-
-<%= link_to "New Dose", new_cocktail_dose_path(@cocktail), class: 'btn btn-primary' %>
-
+  </div>
+  <% end %>
+</div>
+<div class="container my-2 d-flex justify-content-center">
+  <%= link_to "New Dose", new_cocktail_dose_path(@cocktail), class: 'btn btn-success mx-2' %>
+  <%= link_to "Back", cocktails_path, class: 'btn btn-light mx-2' %>
+</div>
+<div class="footer">
+  <div class="footer-links">
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-facebook"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a>
+    <a href="#"><i class="fab fa-linkedin"></i></a>
+  </div>
+  <div class="footer-copyright">
+    Mixin' those 'tails!
+  </div>
+</div>

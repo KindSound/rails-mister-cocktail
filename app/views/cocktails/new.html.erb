@@ -1,10 +1,29 @@
-<div class="container py-5">
-  <h1>Creating a cocktail</h1>
-  <%= simple_form_for(@cocktail) do |f| %>
+<div class="banner py-5" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://www.dorchestercollection.com/wp-content/uploads/Principe-Bar-Hero-1920x840.jpg);">
+  <div class="container text-white">
+    <h1>Name your new cocktail</h1>
+    <p>Pick your poison.</p>
+    <%= simple_form_for(@cocktail) do |f| %>
     <%= f.error_notification %>
     <%= f.error_notification message: f.object.errors[:base].to_sentence if f.object.errors[:base].present? %>
-
     <%= f.input :name %>
-    <%= f.submit 'Save cocktail', class: 'btn btn-primary' %>
-  <% end %>
+    <%= f.input :photo %>
+    <%= f.input :photo_cache, as: :hidden %>
+    <%= f.submit 'Save cocktail', class: 'btn btn-success float-center' %>
+    <% end %>
+  </div>
+</div>
+</div>
+<div class="container">
+<%= link_to "Back", cocktails_path, class: 'btn btn-light d-flex my-5 justify-content-center' %>
+</div>
+<div class="footer">
+<div class="footer-links">
+  <a href="#"><i class="fab fa-instagram"></i></a>
+  <a href="#"><i class="fab fa-facebook"></i></a>
+  <a href="#"><i class="fab fa-twitter"></i></a>
+  <a href="#"><i class="fab fa-linkedin"></i></a>
+</div>
+<div class="footer-copyright">
+  Mixin' those 'tails!
+</div>
 </div>

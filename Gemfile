@@ -24,7 +24,7 @@ gem 'coffee-rails', '~> 4.2'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '~> 2.5'
+#gem 'jbuilder', '~> 2.5'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
@@ -32,10 +32,11 @@ gem 'jbuilder', '~> 2.5'
 gem 'autoprefixer-rails'
 gem 'font-awesome-sass', '~> 5.6.1'
 gem 'simple_form'
+gem 'carrierwave', '~> 1.2'
 gem 'faker'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
-
+gem 'cloudinary', '~> 1.9.1'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
